@@ -34,7 +34,7 @@ If any new file is created in the pcapfiles directory this watcher will be trigg
    * OPTIONAL script for json watcher in pythonic way  (not needed)
 4.jsonfolderwatcher.py    
 This jsonfolderwatcher.py script that is one of the watchers that will keep track tha activities in the “decodedfiles” directory
-If any new file is created in the decodedfiles directory this watcher will be triggered and the newly came json file will be uploaded to elasticsearch
+#If any new file is created in the decodedfiles directory this watcher will be triggered and the newly came json file will be uploaded to elasticsearch
 -------------------------------------------------------------------------------------------------------------------------
 
 
