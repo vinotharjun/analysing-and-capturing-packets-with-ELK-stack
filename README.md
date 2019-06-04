@@ -29,7 +29,9 @@ If any new file is created in the pcapfiles directory this watcher will be trigg
 4.Logstash.conf
     -the logstash.conf file is a logstash configuration file that just parse the the necessary details from the file name and that read data will be pushed to elasticsearch
 ----------------------------------------------------------------------------------------------------------------------------
-            OPTIONAL script for json watcher in pythonic way  (not needed)
+
+
+   * OPTIONAL script for json watcher in pythonic way  (not needed)
 4.jsonfolderwatcher.py    
 This jsonfolderwatcher.py script that is one of the watchers that will keep track tha activities in the “decodedfiles” directory
 If any new file is created in the decodedfiles directory this watcher will be triggered and the newly came json file will be uploaded to elasticsearch
@@ -55,6 +57,7 @@ NOTE: (change the directory path of  json folder which should be watched by the 
 Step 3 (optional)
 Open another terminal tab and run simulator if need
 (the simulator that generates pcap file per second) 
+
 python simulator.py
 
 
